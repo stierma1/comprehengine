@@ -1,6 +1,6 @@
 {
   "name": "comprehengine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/stierma1/comprehengine#readme",
   "dependencies": {
-    "forward-chainer": "^1.0.5",
     "jsonpath-plus": "^0.15.0"
   }
 }

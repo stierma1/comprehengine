@@ -66,7 +66,10 @@ function processNot(expr, data){
 }
 
 
-function processExpr(expr, data){
+function processExpr(expr, data, classCon){
+  if(classCon && !(data instanceof classCon)){
+    return false;
+  }
   if(typeof(expr) === 'string'){
     return JSONPath(expr, [data]).length > 0;
   } else if(expr instanceof Array){
