@@ -1,0 +1,23 @@
+{
+  "name": "comprehengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/comprehengine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/comprehengine/issues"
+  },
+  "homepage": "https://github.com/stierma1/comprehengine#readme",
+  "dependencies": {
+    "forward-chainer": "^1.0.5",
+    "jsonpath-plus": "^0.15.0"
+  }
+}
